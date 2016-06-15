@@ -12,6 +12,9 @@
       <h1>INFO HERE</h1>
     </div>
     <div class="row">
+      {{#each model as |product|}}
+        {{product-tile product=product}}
+      {{/each}}
       <div class="col-md-4 productSquare">Title Test</div>
       <div class="col-md-4 productSquare">Title Test</div>
       <div class="col-md-4 productSquare">Title Test</div>
