@@ -1,0 +1,22 @@
+{ "products": [{
+  "name": "Brie",
+  "description": "Soft Cheese, light in flavor",
+  "image": "http://www.foodsubs.com/Photos/brie.jpg",
+  "price": 5
+  }, {
+  "name": "Feta",
+  "description": "Soft goat cheese",
+  "image": "http://www.seriouseats.com/images/20110812-murrays-cheese-feta-01.jpg",
+  "price": 7
+  }, {
+  "name": "Gouda",
+  "description": "Semi-hard cheese with a nutty flavor",
+  "image": "http://www.seriouseats.com/images/20110812-murrays-cheese-gouda-01.jpg",
+  "price": 12
+  }, {
+  "name": "Monterey Jack",
+  "description": "Soft American cheese with a tangy flavor",
+  "image": "http://www.seriouseats.com/images/2011/10/20111003-cheese-monterey-jack1.jpg",
+  "price": 6
+  }]
+}

@@ -1,0 +1,25 @@
+.main_col {
+  background-color: gray;
+}
+
+.productSquare{
+  height: 200px;
+  border-color: #eee;
+  border-width: 5px;
+  border-style: groove;
+  border-radius: 20px;
+  margin: 5px;
+  min-width: 305px;
+  max-width: 306px;
+
+}
+
+img {
+  height: inherit;
+  width: 305px;
+  border-color: #eee;
+  border-radius: 20px;
+  margin: -5px;
+  margin-left: -20px;
+
+}

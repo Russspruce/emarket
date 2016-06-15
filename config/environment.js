@@ -2,6 +2,12 @@
 
 module.exports = function(environment) {
   var ENV = {
+    firebase: {
+    apiKey: "AIzaSyBE8nIjwRk-uu1PhaUf9LU7QMQd2smBygg",
+    authDomain: "emarket-962b1.firebaseapp.com",
+    databaseURL: "https://emarket-962b1.firebaseio.com",
+    storageBucket: "",
+  },
     modulePrefix: 'e-market',
     environment: environment,
     baseURL: '/',

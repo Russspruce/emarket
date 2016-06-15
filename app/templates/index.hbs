@@ -1,1 +1,35 @@
-{{outlet}}
+<div class="container">
+  <div class="col-md-10 col-md-offset-1 main_col">
+    <h2>Test</h2>
+    <div class="row">
+      {{#each model as |product|}}
+        {{product-tile product=product}}
+      {{/each}}
+    </div>
+    <div class="col-lg-10">
+      <h1>INFO HERE</h1>
+      <h1>INFO HERE</h1>
+      <h1>INFO HERE</h1>
+    </div>
+    <div class="row">
+      <div class="col-md-4 productSquare">Title Test</div>
+      <div class="col-md-4 productSquare">Title Test</div>
+      <div class="col-md-4 productSquare">Title Test</div>
+      <div class="col-md-4 productSquare">Title Test</div>
+      <div class="col-md-4 productSquare">Title Test</div>
+      <div class="col-md-4 productSquare">Title Test</div>
+      <div class="col-md-4 productSquare">Title Test</div>
+      <div class="col-md-4 productSquare">Title Test</div>
+      <div class="col-md-4 productSquare">Title Test</div>
+    </div>
+  </div>
+</div>
+<!--
+<div class="col-md-4 productSquare">Title Test</div>
+<div class="col-md-4 productSquare">Title Test</div>
+<div class="col-md-4 productSquare">Title Test</div>
+<div class="col-md-4 productSquare">Title Test</div>
+<div class="col-md-4 productSquare">Title Test</div>
+<div class="col-md-4 productSquare">Title Test</div>
+<div class="col-md-4 productSquare">Title Test</div>
+<div class="col-md-4 productSquare">Title Test</div> -->
