@@ -1,18 +1,27 @@
-<nav class="navbar navbar-light bg-faded" style="margin-bottom:0px">
-  {{#link-to 'index'}}<a class="navbar-brand"  style="margin-left:30px;color:#000;font-size:2.3em">Cheesers</a>{{/link-to}}
+<!-- <nav class="navbar navbar-light bg-faded" style="margin-bottom:0px">
+{{#link-to 'index'}}<a class="navbar-brand"  style="margin-left:30px;color:#000;font-size:2.3em">Cheesers</a>{{/link-to}}
   <ul class="nav navbar-nav navbar-right" style="margin-left:8%;text-transform:uppercase;font-size: .83em;font-family:Helvetica,Arial,sans-serif;">
     <li class="nav-item active ">
-      {{#link-to 'index'}}<a class="nav-link" >Cart</a>{{/link-to}}
+      <a class="nav-link" >Cart</a>
+    </li>
+    <li class="dropdown {{if dropdownOpen 'open'}}" style="border-left:1px #eee solid;">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" {{action 'toggleDropdown'}} role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+      <ul class="dropdown-menu">
+        <form>
+          <div class="form-group">
+            <li>Login:</li>
+            <li>{{input value=name id='name'}}</li>
+            <li> <button {{action 'save'}}>Login</button></li>
+          </div>
+        </form>
+      </ul>
     </li>
     <li class="nav-item" style="border-left:1px #eee solid;">
-      {{#link-to 'index'}}<a class="nav-link" >{{user.name}}</a>{{/link-to}}
-    </li>
-    <li class="nav-item" style="border-left:1px #eee solid;">
-      {{#link-to 'about'}}<a class="nav-link" href="about">About</a>{{/link-to}}
+      <a class="nav-link" href="about">About</a>
     </li>
   </ul>
-</nav>
-  <hr style="margin-top:0px">
+</nav> -->
+<hr style="margin-top:0px">
 
 
 <div class="container">
