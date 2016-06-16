@@ -10,15 +10,15 @@ export default Ember.Component.extend({
       this.set('addNewPurchase', true);
 
     },
-    save() {
+    saveProduct() {
       var params = {
         name: this.get('name'),
-        price: this.get('price'),
-        quantity: this.get('quantity')
-
+        description: this.get('description'),
+        price: parseFloat(this.get('price')),
+        image: this.get('image')
       };
-      this.set('addNewPurchase', false);
-      this.sendAction('saveTwo', params);
-    }
+      this.sendAction('saveProduct', params);
+
+      }
   }
 });

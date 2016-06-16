@@ -5,6 +5,10 @@ export default Ember.Component.extend({
   actions:  {
     toggleDropdown() {
       this.toggleProperty('dropdownOpen');
-    }
+    },
+    
+    addToCart(item) {
+      this.get('shoppingCart').add(item);
+    },
   }
 });

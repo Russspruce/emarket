@@ -1,8 +1,5 @@
 <div class="col-md-4 productSquare">
   <!-- <h3>{{product.name}}</h3> -->
   {{#link-to 'product' product.id}}<img src="{{product.image}}" alt="{{product.name}}">{{/link-to}}
-  <!-- <ul>
-    <li>{{product.description}}</li>
-    <li>${{product.price}}</li>
-  </ul> -->
+  <button {{action 'addToCart' product}}>Add to Cart</button>
 </div>
